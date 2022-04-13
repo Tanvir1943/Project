@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsiv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.jpg"></a>
+            <div class="nav-links"  id="navlinks">
+                <img class="icon" src="image/closeicon.png" onclick="hidemenu()">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <img class="menu" src="image/menu icon.png" onclick="showmenu()">
+        </nav>
+
+        <h1>Our Certificate & Online Programs For 2021</h1>
+
+    </section>
+
+    <!--blog-page-->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="image/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, dicta amet nostrum animi doloremque atque eveniet dolores! Vel aperiam dolores, voluptas perferendis optio vero dignissimos harum est iure ipsa minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quisquam?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum mollitia aperiam hic. Repellat, facilis fugiat aperiam nostrum, omnis a delectus reprehenderit earum suscipit quis non placeat dolores? Iure, dignissimos quis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae doloribus inventore aliquid impedit. Dolore, nemo! Reiciendis voluptatum fuga explicabo molestiae?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sequi quia rem accusantium, a iure et officiis inventore quibusdam est! Non natus, at soluta distinctio cum eligendi maiores earum facilis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae culpa debitis sit amet, nihil aut suscipit ipsa nam perspiciatis ullam accusantium ab exercitationem dicta sequi voluptate ipsum obcaecati quam aspernatur?</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, cumque porro omnis ipsum nihil dolorem inventore accusamus? Quis labore amet cupiditate aspernatur, voluptates harum natus nihil odit maiores, mollitia laboriosam ab repellendus. Molestiae mollitia a ducimus tempora? Deleniti nesciunt ipsam laudantium nobis ducimus voluptates impedit. Tempore blanditiis non culpa ducimus neque dolorem pariatur eaque assumenda? Nihil iure adipisci ex rerum.</p>
+
+
+                <div class="comment-box">
+
+                    <h3>Leav a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Your Name ">
+                        <input type="email" placeholder="Enter Your E-mail">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button class="hero-btn red-btn" type="submit">POST COMMENT</button>
+                    </form>
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Catagories</h3>
+                <div>
+                    <span>Bussiness Analytics</span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+
+                <div>
+                    <span>Mechine Learning</span>
+                    <span>15</span>
+                </div>
+
+                <div>
+                    <span>Computere Science</span>
+                    <span>34</span>
+                </div>
+
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+   
+
+
+            <!--footer-->
+
+            <section class="footer">
+                <h3>About Us</h3>
+                <p>Daffodil Internatioal Univarsity  is a world ranked University.<br>It,s siuated at the capital city <b>Dhaka</b> in <b>BANGLADESH</b>
+                </p>
+                <div>
+                    <img src="image/facebook.png">
+                    <img src="image/twitter (1).png">
+                    <img src="image/instagram.png">
+                    <img src="image/linkedin.png">
+                    <p class="copyright">copyright@daffodilversity</p>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200";
+        }
+    </script>
+    
+</body>
+</html>

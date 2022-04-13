@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsiv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.jpg"></a>
+            <div class="nav-links"  id="navlinks">
+                <img class="icon" src="image/closeicon.png" onclick="hidemenu()">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <img class="menu" src="image/menu icon.png" onclick="showmenu()">
+        </nav>
+
+        <h1>Contact Us</h1>
+
+    </section>
+
+
+    <!--contact us-->
+
+   <section class="location"> 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.788556429705!2d90.37417781493316!3d23.75491838458724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8ada2664e21%3A0x3c872fd17bc11ddb!2sDaffodil%20International%20University!5e0!3m2!1sen!2sbd!4v1627839673060!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+   </section>
+
+   <section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <img class="fa-icon" src="image/home.png">
+                <span>
+                    <h5>102/1, Sukrabad Mirpur Rd, Dhaka 1207</h5>
+                    <p>Dhaka, Bangladesh</p>
+                </span>
+            </div>
+            <div>
+                <img class="fa-icon" src="image/telephone.png">
+                <span>
+                    <h5>+880 17** ****** </h5>
+                    <p>Saturday to Thuirsday at 9:00 am to 7:00 pm</p>
+                </span>
+            </div>
+            <div>
+                <img class="fa-icon" src="image/email.png">
+                <span>
+                    <h5>daffodilversity@gmail.com</h5>
+                    <p>E-mail us your quary</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Email Address" required>
+                <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                <textarea rows="8" name="massege" placeholder="Massege" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Massege</button>
+            </form>
+        </div>
+    </div>
+   </section>
+
+
+
+            <!--footer-->
+
+            <section class="footer">
+                <h3>About Us</h3>
+                <p>Daffodil Internatioal Univarsity  is a world ranked University.<br>It,s siuated at the capital city <b>Dhaka</b> in <b>BANGLADESH</b>
+                </p>
+                <div>
+                    <img src="image/facebook.png">
+                    <img src="image/twitter (1).png">
+                    <img src="image/instagram.png">
+                    <img src="image/linkedin.png">
+                    <p class="copyright">copyright@daffodilversity</p>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200";
+        }
+    </script>
+    
+</body>
+</html>
